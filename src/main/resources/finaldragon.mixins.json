@@ -1,0 +1,10 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.teampotato.finaldragon.mixin",
+    "refmap": "finaldragon.refmap.json",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "MixinLivingEntity"
+    ]
+}
