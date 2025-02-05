@@ -7,8 +7,9 @@ modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
+logoFile = "img.png"
 description='''
-本模组添加了“终湮神力”附魔，使攻击无视护甲/盾牌。
+本模组添加了“终湮神力”附魔，使生物攻击无视护甲/盾牌。
 This mod adds "Final Power" enchantment which enables your attacks to ignore armors/shields.
 '''
 
