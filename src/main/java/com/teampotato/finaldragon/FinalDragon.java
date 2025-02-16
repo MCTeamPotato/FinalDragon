@@ -32,7 +32,6 @@ public final class FinalDragon {
         Enchantment enchantment = FINAL_POWER.get();
         ItemStack mainHand = livingSource.getMainHandItem();
         ItemStack offHand = livingSource.getOffhandItem();
-        EnchantmentHelper.getItemEnchantmentLevel(enchantment, livingSource.getMainHandItem());
         return EnchantmentHelper.getItemEnchantmentLevel(enchantment, mainHand) == 0 && EnchantmentHelper.getItemEnchantmentLevel(enchantment, offHand) == 0;
     }
 
