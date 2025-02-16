@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "finaldragon",
+  "version": "${version}",
+  "name": "FinalDragon",
+  "description": "This mod adds \"Final Power\" enchantment which enables your attacks to ignore armors/shields.",
+  "authors": [
+    "Kasualix"
+  ],
+  "contact": {
+    "homepage": "https://github.com/MCTeamPotato/FinalDragon",
+    "sources": "https://github.com/MCTeamPotato/FinalDragon"
+  },
+  "license": "WTFPL",
+  "icon": "img.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.teampotato.finaldragon.fabric.FinalDragonFabric"
+    ]
+  },
+  "mixins": [
+    "finaldragon.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
